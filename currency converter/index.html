@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2> CURRENCY CONVERTER </h2>
+        <form>
+            <DIV class="amount">
+            <p>Enter Amount</p>
+            <input value="100" type="text">
+            </div>
+            <div class="dropdown">
+             <div class="from">   
+<p>FROM</p>
+<div class="select-container">
+    <img src="https://flagsapi.com/US/flat/64.png">
+    <select name="from">
+        <option VALUE="USD">USD</option>
+        <option VALUE="INR">INR</option>
+        <option VALUE="EUR">EUR</option>
+        <option VALUE="AUD">AUD</option>
+    </select>
+</div>                
+</div>
+                <img id="img" src="https://cdn-icons-png.flaticon.com/128/3513/3513509.png" height="50px">
+                <div class="to">
+<p>TO</p>
+                <div class="select-container">
+    <img src="https://flagsapi.com/IN/flat/64.png">
+    <select name="to">
+        <option VALUE="USD">USD</option>
+        <option VALUE="INR" selected>INR</option>
+        <option VALUE="EUR">EUR</option>
+        <option VALUE="AUD">AUD</option>
+    </select>
+</div>               
+</div>
+</div>
+            <p id="msg">1USD = 8OINR</p>
+            <button>Get Exchange Rate</button>
+            </form>
+    </div>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
